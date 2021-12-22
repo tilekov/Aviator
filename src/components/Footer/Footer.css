@@ -1,0 +1,13 @@
+.footer-text1 {
+    color:black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.footer-text2{
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
