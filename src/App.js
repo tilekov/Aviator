@@ -6,16 +6,30 @@ import Routing from "./routing";
 import "antd/dist/antd.css";
 import AuthContextProvider from "./contexts/authContext";
 import { BrowserRouter } from "react-router-dom";
-
+import CartContextProvider from "./contexts/cartContext";
+import ProductsContextProvider from "./contexts/productsContext";
+import FavoriteContextProvider from "./contexts/favoriteContext";
+import LikesContextProvider from "./contexts/likesContext";
+import CommentContextProvider from "./contexts/CommentContext";
 
 const App = () => {
   return (
     <AuthContextProvider>
-      <BrowserRouter>
-      <Header />
-      <Routing />
-      <Footer />
-      </BrowserRouter>
+      <CommentContextProvider>
+      <LikesContextProvider>
+      <FavoriteContextProvider>
+      <CartContextProvider>
+        <ProductsContextProvider>
+          <BrowserRouter>
+            <Header />
+            <Routing />
+            <Footer />
+          </BrowserRouter>
+        </ProductsContextProvider>
+      </CartContextProvider>
+      </FavoriteContextProvider>
+      </LikesContextProvider>
+      </CommentContextProvider>
     </AuthContextProvider>
   );
 };

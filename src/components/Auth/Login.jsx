@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useAuth } from "../../contexts/authContext";
 import "./Login.css";
 
@@ -48,9 +49,11 @@ const Login = () => {
           <div className="btn-container">
             {hasAccount ? (
               <>
-                <button className="auth-btn" onClick={handleLogin}>
-                  Sign in
-                </button>
+                <Link to="/">
+                  <button className="auth-btn" onClick={handleLogin}>
+                    Sign in
+                  </button>
+                </Link>
                 <p className="auth-text">
                   Don't have an account?
                   <span
@@ -63,9 +66,11 @@ const Login = () => {
               </>
             ) : (
               <>
-                <button className="auth-btn" onClick={handleSignUp}>
-                  Sign up
-                </button>
+                <Link to="/">
+                  <button className="auth-btn" onClick={handleSignUp}>
+                    Sign up
+                  </button>
+                </Link>
                 <p className="auth-text">
                   Have an account?
                   <span

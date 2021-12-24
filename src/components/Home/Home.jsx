@@ -7,36 +7,6 @@ const Home = () => {
       <div className="home-start">
         <h2 className="home-text">ЛЕТАЕМ ПЕРВЫМ КЛАССОМ</h2>
         <img width="180px" src="https://aviatorwatch.swiss/assets/template/logo_category/White/Douglas_Day-Date.svg" alt="" />
-        {/* <Carousel autoplay>
-          <div>
-            <img
-              width="100%"
-              src="https://aviatorwatch.swiss/assets/banners/home/daydate41/AVIATOR-WATCH--DOUGLAS-DAY-DATE-41--V.3.35.2.279.4_1600px.webp"
-              alt=""
-            />{" "}
-          </div>
-          <div>
-            <img
-              width="100%"
-              src="	https://aviatorwatch.swiss/assets/banners/home/mig29/AVIATOR-WATCH--MIG-29-SMT_1600px.webp"
-              alt=""
-            />{" "}
-          </div>
-          <div className="girl-img">
-            <img
-              width="100%"
-              src="https://aviatorwatch.swiss/assets/banners/home/moonflight/AVIATOR-WATCH--DOUGLAS-MOONFLIGHT_SKYMOON_ST_1600px.webp"
-              alt=""
-            />{" "}
-          </div>
-          <div>
-            <img
-              width="100%"
-              src="	https://aviatorwatch.swiss/assets/banners/home/airacobra/AVIATOR-WATCH--AIRACOBRA_1600px.webp "
-              alt=""
-            />{" "}
-          </div>
-        </Carousel> */}
       </div>
       <div>
         <h2
