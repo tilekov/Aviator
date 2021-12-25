@@ -16,19 +16,19 @@ const App = () => {
   return (
     <AuthContextProvider>
       <CommentContextProvider>
-      <LikesContextProvider>
-      <FavoriteContextProvider>
-      <CartContextProvider>
-        <ProductsContextProvider>
-          <BrowserRouter>
-            <Header />
-            <Routing />
-            <Footer />
-          </BrowserRouter>
-        </ProductsContextProvider>
-      </CartContextProvider>
-      </FavoriteContextProvider>
-      </LikesContextProvider>
+        <LikesContextProvider>
+          <FavoriteContextProvider>
+            <CartContextProvider>
+              <ProductsContextProvider>
+                <BrowserRouter>
+                  <Header />
+                  <Routing />
+                  <Footer />
+                </BrowserRouter>
+              </ProductsContextProvider>
+            </CartContextProvider>
+          </FavoriteContextProvider>
+        </LikesContextProvider>
       </CommentContextProvider>
     </AuthContextProvider>
   );

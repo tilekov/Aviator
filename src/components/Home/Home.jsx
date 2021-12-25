@@ -1,12 +1,17 @@
 import React from "react";
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
   return (
     <>
       <div className="home-start">
         <h2 className="home-text">ЛЕТАЕМ ПЕРВЫМ КЛАССОМ</h2>
-        <img width="180px" src="https://aviatorwatch.swiss/assets/template/logo_category/White/Douglas_Day-Date.svg" alt="" />
+        <img
+        className="douglas-img"
+          width="180px"
+          src="https://aviatorwatch.swiss/assets/template/logo_category/White/Douglas_Day-Date.svg"
+          alt=""
+        />
       </div>
       <div>
         <h2
@@ -20,6 +25,7 @@ const Home = () => {
         </h2>
         <div style={{ display: "flex" }}>
           <div
+            className="home-content"
             style={{
               width: "50%",
               display: "flex",
@@ -42,13 +48,15 @@ const Home = () => {
             </p>
           </div>
           <img
+            className="img-home"
             style={{ width: "50%" }}
             src="https://aviatorwatch.swiss/assets/images/Automatic-watch_1280px.webp"
             alt=""
           />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className="home-content" style={{ display: "flex" }}>
           <img
+            className="img-home"
             style={{ width: "50%" }}
             src="	https://aviatorwatch.swiss/assets/images/Chronograph-watch_1280px.webp"
             alt=""
@@ -94,8 +102,23 @@ const Home = () => {
             "url('https://aviatorwatch.swiss/assets/banners/home/PILOT_WATCHES_1440px.webp')",
         }}
       >
-        <h2 style={{marginTop:"5%", marginBottom:"1%"}}>ДРУГИХ ТАКИХ НЕТ</h2>
-        <p style={{width:"45%"}}>С момента своего основания в 2000 году бренд AVIATOR следует своей миссии разработке лучшей коллекции авиационных часов, черпая вдохновение в истории авиации и ее развитии. Создание каждой модели требует исключительного мастерства и использования материалов наивысшего качества. Штаб-квартира компании и производство расположены в городе Поррантрюи, в сердце швейцарской часовой отрасли. Сочетая лучшие традиции часового дела с духом авиации, AVIATOR стремится создать лучшие современные часы для пилотов и всех ценителей наручных часов. Лаборатория AVIATOR расположена в диспетчерской вышке аэродрома кантона Юра, что служит постоянным источником вдохновения и позволяет бренду взаимодействовать с пилотами и другими специалистами авиационной отрасли.</p>
+        <h2 style={{ marginTop: "5%", marginBottom: "1%" }}>
+          ДРУГИХ ТАКИХ НЕТ
+        </h2>
+        <p style={{ width: "45%" }}>
+          С момента своего основания в 2000 году бренд AVIATOR следует своей
+          миссии разработке лучшей коллекции авиационных часов, черпая
+          вдохновение в истории авиации и ее развитии. Создание каждой модели
+          требует исключительного мастерства и использования материалов
+          наивысшего качества. Штаб-квартира компании и производство расположены
+          в городе Поррантрюи, в сердце швейцарской часовой отрасли. Сочетая
+          лучшие традиции часового дела с духом авиации, AVIATOR стремится
+          создать лучшие современные часы для пилотов и всех ценителей наручных
+          часов. Лаборатория AVIATOR расположена в диспетчерской вышке аэродрома
+          кантона Юра, что служит постоянным источником вдохновения и позволяет
+          бренду взаимодействовать с пилотами и другими специалистами
+          авиационной отрасли.
+        </p>
       </div>
     </>
   );

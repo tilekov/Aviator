@@ -79,8 +79,8 @@ const Comment = (props) => {
   }
   return (
     <>
-      <div className="mt-5" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', margin: '5px auto'}}>
-     <Likes />
+      <div className="mt-5" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', margin: '100px auto'}}>
+     {/* <Likes /> */}
         <InputGroup className="mb-3 createComment" style={{width: '50%'}}>
           <TextArea rows={2} onChange={handleChange} placeholder="Оставьте комментарий" value={comment} />
           <button

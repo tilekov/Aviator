@@ -15,6 +15,7 @@ const Login = () => {
     setHasAccount,
     emailError,
     passwordError,
+    authWithGoogle,
   } = useAuth();
   return (
     <>
@@ -83,6 +84,17 @@ const Login = () => {
               </>
             )}
           </div>
+          <Link to="/">
+          <p style={{ textAlign: "center", color: "#8F98A0" }}>
+            Войти с помощью
+            <img
+              className="google-logo"
+              onClick={authWithGoogle}
+              src="https://cdn-icons-png.flaticon.com/512/2875/2875404.png"
+              alt="google"
+            />
+          </p>
+          </Link>
         </div>
       </section>
     </>

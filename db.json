@@ -92,7 +92,85 @@
       "productId": "12",
       "rate": 1,
       "id": 2
+    },
+    {
+      "productId": "9",
+      "rate": 1,
+      "id": 3
+    },
+    {
+      "owner": "tilekov@gmail.com",
+      "productId": "11",
+      "rate": 1,
+      "id": 4
+    },
+    {
+      "owner": "tilekovjanar1@gmail.com",
+      "productId": "14",
+      "rate": 1,
+      "id": 5
+    },
+    {
+      "owner": "tilekovjanar1@gmail.com",
+      "productId": "10",
+      "rate": 1,
+      "id": 6
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "text": "asd",
+      "productId": "9",
+      "createdAt": "2021-12-24T11:07:43.220Z",
+      "createdAtMs": 1640344063220,
+      "id": 1
+    },
+    {
+      "text": "awd",
+      "productId": "9",
+      "createdAt": "2021-12-24T11:12:02.678Z",
+      "createdAtMs": 1640344322678,
+      "id": 2
+    },
+    {
+      "text": "10/10",
+      "owner": "tilekov@gmail.com",
+      "productId": "9",
+      "createdAt": "2021-12-24T11:17:57.090Z",
+      "createdAtMs": 1640344677090,
+      "id": 3
+    },
+    {
+      "text": "nice",
+      "owner": "tilekov@gmail.com",
+      "productId": "11",
+      "createdAt": "2021-12-24T11:18:14.218Z",
+      "createdAtMs": 1640344694218,
+      "id": 4
+    },
+    {
+      "text": "wow",
+      "owner": "tilekov@gmail.com",
+      "productId": "10",
+      "createdAt": "2021-12-24T11:21:34.523Z",
+      "createdAtMs": 1640344894523,
+      "id": 5
+    },
+    {
+      "text": "5/5",
+      "owner": "tilekovjanar1@gmail.com",
+      "productId": "14",
+      "createdAt": "2021-12-24T11:42:28.322Z",
+      "createdAtMs": 1640346148322,
+      "id": 6
+    },
+    {
+      "text": "asd",
+      "owner": "tilekovjanar1@gmail.com",
+      "productId": "10",
+      "createdAt": "2021-12-24T11:43:19.238Z",
+      "createdAtMs": 1640346199238,
+      "id": 7
+    }
+  ]
 }

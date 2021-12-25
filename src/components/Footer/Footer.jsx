@@ -49,7 +49,8 @@ const Footer = () => {
               src="https://cdn.iconscout.com/icon/free/png-256/twitter-110-434742.png"
               alt=""
             />
-            <p style={{marginLeft:"7px"}} className="footer-text2">TWITTER</p>
+            <a href="http://t.me/hackathon_janar_bot"><p style={{marginLeft:"7px"}} className="footer-text2">TWITTER</p></a>
+            {/* <p style={{marginLeft:"7px"}} className="footer-text2">TWITTER</p> */}
           </div>
           <div style={{display:"flex"}}>
             <img
